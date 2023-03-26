@@ -1,0 +1,303 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+background-color: white;
+height: 10px;
+justify-content: center;
+/* border: 2px solid black; */
+}
+
+.nav-bar{
+    display: inline-block;
+    align-items: center;
+      background-color: white;
+      margin: 0;
+      }
+
+      .logo, .iconbars {
+        display: inline-block;
+      }
+
+.logo {
+    width:100px; height:20px; margin-right:20px; margin-left: 5px; margin-top: 10px;
+    
+   }
+
+.main-title{
+    margin-top: 50px;
+    margin-bottom: 50px;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-weight: 500px;
+text-align: center;
+}
+.header{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: lightseagreen;
+  font-weight: 800px;  
+  margin-right: auto;
+}
+
+
+ div.container {
+    text-align: center;
+    position: relative; 
+    top: 5px; 
+ }
+  
+
+
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    float: center;
+    overflow: hidden;
+  }
+
+  .navbar > a{
+    display: inline-block;
+  }
+
+  .nav1{
+    position: relative;  
+    left:0; 
+    visibility: visible; /*to make the code visible and properly arranged*/
+  }
+  .nav2{
+    position: relative;
+    left: 200px;
+    top: 10px;
+    visibility: visible;
+  }
+
+  .nav3{
+    position: relative;
+    left: 400px;
+    top: 10px;
+    visibility: visible;
+  }
+
+  .nav4{
+    position: relative;
+    left: 600px;
+    top: 10px;
+    visibility: visible; 
+  }
+  
+.iconbars1, .iconbars2 {
+  display: inline-block;
+}
+
+.iconbars1 {
+  position: relative; 
+  left: 400px; 
+}
+
+.iconbars2 {
+  position: relative; 
+  left: 420px; 
+}
+
+.btn{
+  position: relative; 
+  left: 450px;
+  width: 120px; 
+  height: 40px; 
+  background-color: #2196F3;
+  color: whitesmoke;
+  border-radius: 5%;
+}
+
+.btn1{
+  position: relative; 
+  left: 470px;
+  width: 50px; 
+  height: 50px;  
+  background-color:rgb(68, 5, 58);
+  color: white;
+  border-radius: 50%;
+}
+
+.btn3{
+  position: relative; 
+  left: 30px;
+  width: 50px; 
+  height: 50px;  
+  background-color:rgb(68, 5, 58);
+  color: white;
+  border-radius: 50%;
+}
+
+
+  .navbus1{
+    position: relative; 
+    left: -135px;
+    visibility: visible;
+  }
+  .navbus2{
+    position: relative;
+    left: 60px;
+    top: 10px;
+    visibility: visible;
+  }
+
+  .navbus3{
+    position: relative;
+    left: 260px;
+    top: 10px;
+    visibility: visible;
+  }
+
+  #nav {
+    list-style:none inside;
+    margin:0;
+    padding:0;
+    text-align:center;
+    }
+
+    #nav li {
+    display:inline-block;
+        background: white; /* menu background color */
+       }
+
+    #nav li a {
+    display:inline-block;
+    padding:0;
+    text-decoration:none;
+    width:130px; /* this is the width of the menu items */
+       
+    line-height:35px; /* this is the hieght of the menu items */
+    color:black; /* list item font color */
+    }
+
+
+    #nav li li a {font-size:80%;} /* smaller font size for sub menu items */
+    #nav li:hover {background:whitesmoke} /* highlights current hovered list item and the parent list items when hovering over sub menues */
+    #nav ul, .grid-container {
+    position:absolute;
+    padding:0;
+    left:0;
+    display:none; /* hides sublists */
+        }
+
+
+    #nav li:hover ul ul {display:none;} /* hides sub-sublists */
+    #nav li:hover ul {display:block;} /* shows sublist on hover */
+    .grid-container, #nav li li:hover ul {
+    display:block; /* shows sub-sublist on hover */
+    margin-left:200px; /* this should be the same width as the parent list item */
+    margin-top:-35px; /* aligns top of sub menu with top of list item */
+    }
+
+    
+.trash {
+  margin-bottom: 20px;
+ 
+}
+
+.team{
+  margin-bottom: 50px;
+
+}
+    .grid-container {
+      /* display: grid; */
+      width: auto ;
+      grid-template-columns: auto auto auto;
+      grid-gap: 10px;
+      background-color: #2196F3;
+      padding: 10px;
+      display: none;
+    }
+    
+    
+    .grid-container > div {
+      background-color: rgba(255, 255, 255, 0.8);
+      text-align: center;
+      padding: 20px 0;
+      font-size: 30px;
+    }
+    
+    .item3 {
+      grid-row-end: span 3;
+    }
+
+    .sidebar{
+      width: 300px; 
+      border: 1px solid white;
+      height: 650px;
+      position: relative;
+      top: 20px;
+      left: 0;
+      display: block; 
+    }
+
+    .sides > li {
+      display: block;
+    }
+    
+.iconbars{
+  margin: 30px 20px 20px 20px;
+}
+
+#nav{
+  display: inline-block;
+}
+
+.items > a{
+  display: block;
+  justify-content: space-between;
+}
+
+.btn3, .free, .personal {
+  display: inline-block;
+
+}
+
+.grid-container {
+    display: grid;
+  grid-template-columns: 33% 33% 34%;
+  background-color: white;
+  padding: 10px;
+  left:0px;
+  top:50px;
+  width: 900px;
+  border: 1px solid black;
+}
+/* .grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+} */
+
+
+.headersss{
+  position: relative;
+  font-size: 18px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.cre{
+  font-size: 12px;
+}
+
+.img1{
+  position: relative;
+  width: 50px; height: 50px;
+ left: 0;
+ display: inline-block;
+}
