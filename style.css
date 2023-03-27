@@ -8,6 +8,7 @@
 background-color: white;
 height: 10px;
 justify-content: center;
+
 /* border: 2px solid black; */
 }
 
@@ -18,15 +19,17 @@ justify-content: center;
       margin: 0;
       }
 
-      .logo, .iconbars {
-        display: inline-block;
-      }
-
-.logo {
-    width:100px; height:20px; margin-right:20px; margin-left: 5px; margin-top: 10px;
-    
+    .logo {
+    width:100px; 
+    height:20px; 
+    margin-right:20px; 
+    margin-left: 5px; 
+    margin-top: 10px;
+    display: inline-block;
    }
-
+.iconbars{
+  display: inline-block;
+}
 .main-title{
     margin-top: 50px;
     margin-bottom: 50px;
@@ -233,7 +236,7 @@ text-align: center;
       grid-row-end: span 3;
     }
 
-    .sidebar{
+    /* .sidebar{
       width: 300px; 
       border: 1px solid white;
       height: 650px;
@@ -241,7 +244,7 @@ text-align: center;
       top: 20px;
       left: 0;
       display: block; 
-    }
+    } */
 
     .sides > li {
       display: block;
@@ -266,38 +269,227 @@ text-align: center;
 }
 
 .grid-container {
-    display: grid;
+  display: grid;
   grid-template-columns: 33% 33% 34%;
   background-color: white;
   padding: 10px;
   left:0px;
-  top:50px;
+  top:30px;
   width: 900px;
   border: 1px solid black;
+  justify-content: left;
 }
-/* .grid-item {
+ .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
+  padding: 10px;
   font-size: 30px;
-  text-align: center;
-} */
+  text-align: left;
+  display: inline-block;
+ 
+} 
 
 
 .headersss{
   position: relative;
-  font-size: 18px;
-  display: inline-block;
-  margin-top: 10px;
+  font-size: 10px;
+  display: block;
+ top: 10px;
+  left: 5px;
 }
 
-.cre{
-  font-size: 12px;
-}
-
-.img1{
+/* .img1{
   position: relative;
-  width: 50px; height: 50px;
- left: 0;
+  width: 20px; height: 20px;
+ margin-left: 0;
  display: inline-block;
+} */
+
+.logo1{
+ float: left;
+ width: 50px;
+ margin-right: 5px;
+  }
+
+  .item3 {
+    grid-row-end: span 3;
+  }
+
+  .ques, .log, .sign, .search {
+    display: inline-block;
+  }
+
+  .search {
+    width: 500px; 
+    height: 35px;
+    position: relative; 
+    right: 10px; 
+    border: 2px solid whitesmoke;
+      }
+
+      .ques{
+        display: inline-block;
+        position: relative; 
+        margin-left: 10px; 
+        margin-right: 10px;
+        width: 20px; 
+        height: 20px; 
+        border-radius: 100%;
+      }
+
+      .sign {
+        width: 80px; 
+        height: 40px; 
+        color: white; 
+        background-color: slateblue;
+        margin: 10px;
+        border: none;
+        border-radius: 5%;
+        position: relative; 
+        right: 0px;
+        left: 10px;
+      }
+
+      .signs {
+        width: 100px; 
+        height: 40px; 
+        color: white; 
+        background-color: slateblue;
+        margin: 10px;
+        border: none;
+        border-radius: 5%;
+        position: relative; 
+        right: 0px;
+        left: 10px;
+        margin-top: 30px;
+      }
+
+      .log{
+        width: 70px; 
+        height: 30px; 
+        color: black; 
+        background-color: lightgray;
+        border: none;
+        border-radius: 5%;
+        position: relative;
+        right: 10px; 
+        left: 10px;
+      }
+.whatd{
+  font-family: 'argent cf';
+  font-size: 48px; 
+ 
 }
+
+.can {
+  margin-top: 20px;
+  font-size: 22px;
+}
+      .center-text {
+
+        display: inline-block; 
+        width: 700px;
+        height: 200px; 
+        /* border: 1px solid red; */
+        justify-content: space-around;
+        margin-top: 40px; 
+        margin-left: 450px; 
+        margin-right: 500px; 
+        text-align: center;
+      }
+
+      .business{
+        width: 50px; 
+        height: 50px; 
+        position: relative; 
+        left: 100px; 
+        margin-top: 40px; 
+      }
+
+      .med{
+        position: relative;
+                width: 200px; 
+                height: 150px;  
+                margin-left: 400px;
+                margin-top: 20px;
+      
+      }
+
+    .hero-container{
+      width: 1500px; 
+      /* margin-right: 200px; 
+      margin-left: 200px;  */
+      height: 600px; 
+      border: 1px solid black;
+    }
+
+    .britney{
+      width: 250px; 
+      height: 200px; 
+      position: relative; 
+      margin-left: 1200px; 
+      margin-top: -150px
+    }
+    .sun{
+      width: 250px; 
+      height: 200px; 
+      position: relative; 
+      margin-left: 1170px; 
+       margin-top: 50px 
+    }
+
+    .employee{
+      width: 250px; 
+      height: 200px; 
+      position: relative; 
+      margin-left: 100px; 
+      margin-top: -150px
+    }
+
+    .perfect{
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 40px; 
+      font-weight: 500px;
+      text-align: center;
+    }
+
+    .pricing{
+      display: grid;
+      grid-template-columns: 33% 33% 34%;
+      background-color: white;
+      padding: 10px;
+      margin-left:300px;
+      margin-top:80px;
+      width: 1000px;
+      /* border: 1px solid black; */
+      /* justify-content: center; */
+      text-align: center;
+    }
+     .pricing-item {
+      background-color: rgba(255, 255, 255, 0.8);
+      /* border: 1px solid rgba(0, 0, 0, 0.8);
+      padding: 10px; */
+      font-size: 30px;
+      text-align: left;
+      display: inline-block;
+     
+    } 
+
+    .cfree, .cteam, .cpro {
+      text-align: center;
+      font-size: 18px;
+      width: 250px; 
+      height: 40px; 
+      justify-content: space-between;
+      margin-right: 30px;
+      background-color: darkslateblue;
+      color: whitesmoke;
+       
+
+
+
+    }
+
+    .pricing-item > p{
+      font-size: 14px; 
+    }
