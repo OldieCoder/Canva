@@ -270,12 +270,12 @@ text-align: center;
 
 .grid-container {
   display: grid;
-  grid-template-columns: 33% 33% 34%;
+  grid-template-columns: 33% 33% 33%;
   background-color: white;
   padding: 10px;
   left:0px;
   top:30px;
-  width: 900px;
+  width: 700px;
   border: 1px solid black;
   justify-content: left;
 }
@@ -286,6 +286,7 @@ text-align: center;
   font-size: 30px;
   text-align: left;
   display: inline-block;
+
  
 } 
 
@@ -478,18 +479,137 @@ text-align: center;
     .cfree, .cteam, .cpro {
       text-align: center;
       font-size: 18px;
-      width: 250px; 
+      width: 300px; 
       height: 40px; 
-      justify-content: space-between;
+      justify-content: center;
       margin-right: 30px;
-      background-color: darkslateblue;
+      background-color: slateblue;
       color: whitesmoke;
-       
-
-
-
-    }
+      border: none;
+      border-radius: 2%;
+           }
 
     .pricing-item > p{
-      font-size: 14px; 
+      font-size: 18px; 
+      text-align: center;
+      justify-content: center;
     }
+
+    .cteam{
+      margin-left: 20px;
+    }
+
+    .cpro{
+      margin-left: 10px;
+    }
+    
+    /* .scroll{
+      margin-top: 100px;
+      width: 1200px; 
+      margin-right: -100px;
+      margin-left: -400px;
+     justify-content: left;  
+      border: 1px solid red;
+    } */
+    /* .marquee {
+      position: relative;
+      width: 1200px;
+      max-width: 100%;
+      height: 200px;
+      overflow-x: hidden;
+      margin-top: 100px; 
+
+    } */
+    
+    .track {
+      position: absolute;
+      white-space: nowrap;
+      will-change: transform;
+      animation: marquee 32s linear infinite;
+      width: 1200px;
+      margin-top: 280px;
+    }
+    
+    @keyframes marquee {
+      from { transform: translateX(0); }
+      to { transform: translateX(-50%); }
+    }
+    
+
+    @keyframes scroll {
+      from {
+        transform: translateX(0);
+      }
+      to {
+        transform: translateX(calc(-100% - var(--gap)));
+      }
+    }
+
+    .track {
+      position: absolute;
+      white-space: nowrap;
+      will-change: transform;
+      animation: marquee 10s linear infinite;
+    }
+
+    .edu{
+      text-align: left; 
+      width: 800px;
+      margin-top: 30px; 
+      margin-left: 200px; 
+    }
+
+    .trusted{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 36px; 
+      font-weight: 500px; 
+      margin-top: -25px;
+          }
+
+          .trust{
+            margin-top: 200px; 
+            margin-left: -100px; 
+            width: 500px; 
+          }
+
+          .vid{
+            position: relative;
+            margin-top: 200px;
+            width: 600px; 
+            height: 500px; 
+            margin-left: -150px; 
+            display: inline-block;
+          }
+
+          .meds{
+            position: relative;
+            margin-left: 500px; 
+            display: inline-block;
+            top: -300px; 
+           width: 500px;
+          }
+
+          .ready{
+            font-size: 36px;
+            margin-bottom: 20px; 
+            margin-top: -35px; 
+            text-align: left;
+          }
+
+          .benefit{
+            font-size: 18px; 
+            text-align: left; 
+            margin-bottom: 20px; 
+          }
+
+          .creates{
+            background-color: blueviolet;
+            width: 120px; 
+            height:40px; 
+            color:whitesmoke;
+            border: none; 
+            border-radius: 5%;
+            text-align: center; 
+            position: relative;
+            margin-left: -380px; 
+          }
